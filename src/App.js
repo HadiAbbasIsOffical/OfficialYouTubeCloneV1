@@ -17,12 +17,12 @@ export default function App() {
                 <NewNavbar/>
 
                 <Routes>
-                    <Route path='/' exact element={<FEED />} />
-                    <Route path='/video/:id' element={<VideoDetail />} />
-                    <Route path='/CreatorHub/' element={<CreatorHub />} />
-                    <Route path='/SearchVideo/:id' element={<SearchResult />} />
-                    <Route path='/Favoriates' element={<FavResult />} />
-                    <Route path='/ViewProfile/:id' element={<ViewProfile />} />
+                    <Route path='/OfficialYouTubeCloneV1' exact element={<FEED />} />
+                    <Route path='/OfficialYouTubeCloneV1/video/:id' element={<VideoDetail />} />
+                    <Route path='/OfficialYouTubeCloneV1/CreatorHub/' element={<CreatorHub />} />
+                    <Route path='/OfficialYouTubeCloneV1/SearchVideo/:id' element={<SearchResult />} />
+                    <Route path='/OfficialYouTubeCloneV1/Favoriates' element={<FavResult />} />
+                    <Route path='/OfficialYouTubeCloneV1/ViewProfile/:id' element={<ViewProfile />} />
                 </Routes>
             </div>
 

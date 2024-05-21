@@ -83,7 +83,7 @@ ProfileInfo?
           to={`/ViewProfile/${id}`}>            </Link> */}
       
       <div className="grid grid-cols-2 gap-4 ">
-        <Link to={`/ViewProfile/${VideoDetails.channelId}`}>
+        <Link to={`/OfficialYouTubeCloneV1/ViewProfile/${VideoDetails.channelId}`}>
           <div className="flex gap-4">
 
             <img src={ProfileInfo?.snippet?.thumbnails?.high?.url} alt="profile" className="w-11 h-11 rounded-full" />
@@ -176,7 +176,7 @@ ProfileInfo?
                     </div>
                     <div className='ml-2 grid grid-rows-[auto,auto]'>
                       <div className='mb-2'>
-                        <Link to={`/ViewProfile/${eachCom?.snippet?.topLevelComment?.snippet?.authorChannelId?.value}`}>
+                        <Link to={`/OfficialYouTubeCloneV1/ViewProfile/${eachCom?.snippet?.topLevelComment?.snippet?.authorChannelId?.value}`}>
 
                           <p className='font-bold'>{eachCom?.snippet?.topLevelComment?.snippet?.authorDisplayName}</p>
                         </Link>

@@ -15,7 +15,7 @@ const ChannelSearch = ({ UserInfo }) => {
                 {
                     AllProfiles.map((profile) =>
                         profile.id.kind == 'youtube#channel' ?
-                    <Link to={`/ViewProfile/${profile?.id?.channelId}`}>
+                    <Link to={`/OfficialYouTubeCloneV1/ViewProfile/${profile?.id?.channelId}`}>
                             <div className='grid grid-cols-[auto,1fr] m-1'
                             >
                                 <div>

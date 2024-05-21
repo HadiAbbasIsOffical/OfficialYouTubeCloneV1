@@ -7,7 +7,7 @@ const SideVideos = ({ video }) => {
     console.log(video)
     let VidID = video?.id?.videoId
     return (
-        <Link to={`/video/${VidID}`}>
+        <Link to={`/OfficialYouTubeCloneV1/video/${VidID}`}>
             <div className='
               bg-black  m-3
               md:flex  gap-6 

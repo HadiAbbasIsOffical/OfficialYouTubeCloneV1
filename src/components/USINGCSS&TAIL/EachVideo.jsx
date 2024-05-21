@@ -45,7 +45,7 @@ function RemoveItem(){
                     }
 
                 </div>
-                <Link to={`/video/${NewVid?.id?.videoId}`}>
+                <Link to={`/OfficialYouTubeCloneV1/video/${NewVid?.id?.videoId}`}>
                     <div className=' relative'>
                         <img
                             src={NewVid?.snippet?.thumbnails?.high?.url}

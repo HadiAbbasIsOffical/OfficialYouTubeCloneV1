@@ -55,7 +55,7 @@ const NewNavbar = () => {
         }
 
         <Link
-          to='/'
+          to='/OfficialYouTubeCloneV1'
         >
           <img
             onClick={() => ToHomeThings()}
@@ -83,7 +83,7 @@ const NewNavbar = () => {
           </div>
         </div>
         <div>
-        <Link to={SearchTo.length > 0 ? `SearchVideo/${SearchTo}` 
+        <Link to={SearchTo.length > 0 ? `/OfficialYouTubeCloneV1/SearchVideo/${SearchTo}` 
         
         : null}>
 
@@ -111,7 +111,7 @@ const NewNavbar = () => {
           onChange={(e) => SetSearch(e.target.value)}>
         </input>
 
-        <Link to={SearchTo.length > 0 ? `SearchVideo/${SearchTo}` 
+        <Link to={SearchTo.length > 0 ? `/OfficialYouTubeCloneV1/SearchVideo/${SearchTo}` 
         
         : null}>
       <IoSearch color='white' size={30} className='mx-2'/>

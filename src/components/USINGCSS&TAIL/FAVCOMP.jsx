@@ -66,7 +66,7 @@ const FAVCOMP = () => {
                     // grid-rows[auto,1fr]
                     md:grid-cols-[auto,1fr,60px] '>
                     <Link
-                      to={`/video/${eachvideo?.id}`}>
+                      to={`/OfficialYouTubeCloneV1/video/${eachvideo?.id}`}>
                       <div>
                         <img
                           src={eachvideo?.snippet?.thumbnails?.high?.url}
@@ -75,7 +75,7 @@ const FAVCOMP = () => {
                       </div>
                     </Link>
                     <Link
-                      to={`/video/${eachvideo?.id}`}>
+                      to={`/OfficialYouTubeCloneV1/video/${eachvideo?.id}`}>
                       <div  className='grid 
                       grid-rows-[auto,60px]'>
                         <div><p className='font-bold text-xl p-1'>{eachvideo.snippet.title}</p>

@@ -32,7 +32,7 @@ const VideoEach = ({ NewVid }) => {
 
             >
 
-                <Link to={`/video/${NewVid?.id?.videoId}`}>
+                <Link to={`/OfficialYouTubeCloneV1/video/${NewVid?.id?.videoId}`}>
 
                     <div className='grid md:grid-cols-[auto,1fr] grid-rows-[auto,1fr] justify-center'>
                         <div className=''>

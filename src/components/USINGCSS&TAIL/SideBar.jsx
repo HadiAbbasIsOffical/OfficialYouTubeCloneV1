@@ -40,7 +40,7 @@ const SideBar = () => {
             flex
              md:mr-[6px] '
                 style={{ borderRight: '1px solid grey' }}>
-                <Link to='/'>
+                <Link to='/OfficialYouTubeCloneV1'>
                     <div class="sidebar-link mr-0 ml-0" 
                     onClick={()=>SetProperties('New','home')}>
                         <FaHome style={Selected =='home'?{color:'grey'}:{color:'white'}} size={30}/>
@@ -62,7 +62,7 @@ const SideBar = () => {
                     <p className='sidebar-text text-fuchsia-50'>Orignals</p>
                 </div>
                 <Link
-                to='/Favoriates'>
+                to='/OfficialYouTubeCloneV1/Favoriates'>
                 <div class="sidebar-link"
                  onClick={()=>SetProperties('abc','favs')}>
                     <MdOutlineFavorite size={30} style={Selected =='favs'?{color:'grey'}:{color:'white'}}/>
