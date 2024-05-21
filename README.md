@@ -17,7 +17,7 @@ This project is a fully functional YouTube clone built using React.js and Tailwi
 - **Tailwind CSS**: Stylish and responsive design with utility-first CSS framework.
 - **React.js**: Fast and interactive user interfaces with component-based architecture.
 
-![Preview](src/utils/s2f.PNG)
+![Preview](src/utils/sf2.PNG)
 
 ## Tech Stack
 
@@ -26,7 +26,7 @@ This project is a fully functional YouTube clone built using React.js and Tailwi
 - **Routing**: React Router
 - **Video Player**: HTML5 Video API
 
-![Preview](src/utils/s3f.PNG)
+![Preview](src/utils/sf3.PNG)
 
 ## Installation
 
